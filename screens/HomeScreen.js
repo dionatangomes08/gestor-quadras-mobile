@@ -36,13 +36,13 @@ export default function HomeScreen({ navigation }) {
       >
         <View style={styles.iconGroup}>
           <Text style={styles.iconLabel}>Agendar</Text>
-          <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('Agendamento')}>
+          <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('Reservar Quadra')}>
             <MaterialIcons name="event-available" size={64} color="#1e3c72" />
           </TouchableOpacity>
         </View>
         <View style={styles.iconGroup}>
           <Text style={styles.iconLabel}>Listar Agendas</Text>
-          <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('Listagem')}>
+          <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('Reservas')}>
             <Feather name="list" size={64} color="#1e3c72" />
           </TouchableOpacity>
         </View>
@@ -50,13 +50,13 @@ export default function HomeScreen({ navigation }) {
           <>
             <View style={styles.iconGroup}>
               <Text style={styles.iconLabel}>Cadastrar Usuário</Text>
-              <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('CadastroUsuario')}>
+              <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('Cadastro de Usuário')}>
                 <MaterialIcons name="person-add" size={64} color="#1e3c72" />
               </TouchableOpacity>
             </View>
             <View style={styles.iconGroup}>
               <Text style={styles.iconLabel}>Usuários</Text>
-              <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('Usuarios')}>
+              <TouchableOpacity style={styles.iconButton} onPress={() => navigation.navigate('Usuários')}>
                 <MaterialIcons name="people" size={64} color="#1e3c72" />
               </TouchableOpacity>
             </View>
